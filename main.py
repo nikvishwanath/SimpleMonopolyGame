@@ -361,7 +361,7 @@ while game_over != 1:
     
     # If player lands on the "GO" space, there will be no option to purchase the space.
     if game.get_player_current_position(player_turn) == 0:
-        print(player_turn + "landed on the 'GO' space.")
+        print(player_turn + " landed on the 'GO' space.")
         
     # For any other space landed on, if it doesn't have an owner, give the player the option to purchase it.  
     else: 
