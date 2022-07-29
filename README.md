@@ -13,6 +13,6 @@ declared the winner.
 ## How to Run ##
 To play, first download the code.  Then open the Terminal or Command Prompt and navigate to the directory.  Ensure that you have Python 3 installed, then run the following command 
 
-'python main.py'
+python main.py
 
 The game will be launched and you will be prompted to enter in the number/names of players, the number/rental prices of the board spaces, and the amount each player receives upon passing the "GO" space.  
