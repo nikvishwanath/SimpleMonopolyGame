@@ -230,13 +230,10 @@ class SimpleMonopolyGame:
         between 1-6 spaces.  If the player passes the "GO" space, they receive the set amount of money.
         The player will pay rent for the new space occupied, if necessary."""
 
-        if num_spaces < 1 or num_spaces > 6:
-            print('Invalid number of moves entered.')
-            raise NumberMovesError
-        
         # Check to see if the player is still in the game.
         if self.get_player_dictionary()[name].get_balance() == 0:
             return
+            
         else:
             # New position is the player's current position + the number of spaces passed in.
             new_position = self.get_player_object(name).get_position() + num_spaces
